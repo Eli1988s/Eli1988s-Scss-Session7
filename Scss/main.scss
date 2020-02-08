@@ -1,0 +1,25 @@
+@import "./main";
+
+.box{
+      margin: 0 auto;
+      height: 100vh;
+      background-color: palevioletred;
+
+      @include mediaquery(sm){
+        background-color: navy;
+        }
+        @include mediaquery(md){
+          background-color: salmon;
+        }
+      @include mediaquery(lg){
+        background-color: purple;
+      }
+      @include mediaquery(xl){
+          background-color: teal;
+      }
+      @include mediaquery(xs){
+        background-color: springgreen;
+        }
+}
+
+

@@ -1,0 +1,36 @@
+.box {
+  margin: 0 auto;
+  height: 100vh;
+  background-color: palevioletred;
+}
+
+@media (min-width: 576px) {
+  .box {
+    background-color: navy;
+  }
+}
+
+@media (min-width: 768px) {
+  .box {
+    background-color: salmon;
+  }
+}
+
+@media (min-width: 992px) {
+  .box {
+    background-color: purple;
+  }
+}
+
+@media (min-width: 1200px) {
+  .box {
+    background-color: teal;
+  }
+}
+
+@media (max-width: 576px) {
+  .box {
+    background-color: springgreen;
+  }
+}
+/*# sourceMappingURL=main.css.map */
